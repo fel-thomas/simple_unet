@@ -94,7 +94,7 @@ def build_Unet(
     encoder_blocks = []
     decoder_blocks = []
 
-    input_layer = Input(input_size)
+    input_layer = Input(input_shape)
 
     # encoder
     for encoding_index in range(depth):
